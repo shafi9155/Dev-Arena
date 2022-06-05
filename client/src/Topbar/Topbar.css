@@ -1,0 +1,51 @@
+.top{
+width:100%;
+height: 50px;
+position: sticky;
+background-color: white;
+align-items: center;
+display: flex;
+top: 0;
+z-index: 999;
+font-family: 'Josefin Sans', sans-serif;
+}
+.top-left, .top-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topicon{
+    font-size: 20px;
+    margin:10px;
+    color: #444;
+    cursor: pointer;
+}
+.top-centre{
+    flex: 6;}
+.toplist{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+.toplistitem{
+    font-weight: 300px;
+    font-size: 18px;
+    margin-right:20px;
+    cursor: pointer;
+}
+.top-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+     object-fit: cover;
+     cursor: pointer;
+}
+.topsearchicon{
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    margin-left: 15px;
+}

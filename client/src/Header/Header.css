@@ -1,0 +1,16 @@
+.header{
+    margin-top: 60px;
+}
+.headertitle{
+ font-size: 100px;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+    font-family: 'Lora', serif;
+    color: #444;
+}
+.headerimg{
+    width:100%;
+    height:450px;
+    object-fit: cover;
+}
